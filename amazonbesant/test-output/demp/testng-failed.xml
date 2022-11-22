@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [demp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="testdemo(failed)">
+    <classes>
+      <class name="mavenpractice.amazonbesant.example1">
+        <methods>
+          <include name="search"/>
+          <include name="closed"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- mavenpractice.amazonbesant.example1 -->
+    </classes>
+  </test> <!-- testdemo(failed) -->
+</suite> <!-- Failed suite [demp] -->
