@@ -25,7 +25,7 @@ public class example1 {
 	@AfterTest
 	public void  closed () {
 		driver.close();
-		System.out.println(" chrome is closed");
+		System.out.println(" chrome is open");
 	}
 	
 
